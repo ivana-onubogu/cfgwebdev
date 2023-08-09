@@ -1,0 +1,115 @@
+/*front page gallery style*/
+body{
+    background-image: url('https://happysleepy.com/wp-content/uploads/A-Thousand-Plateaus-Drawings-intro-5b-1000x750.jpg');
+  }
+.me-container {
+    justify-content: left;
+}
+.me{
+    margin: 4px, 4px;
+    background-color: #E97451;
+    padding: 10px;
+    float: left;
+    width: 45%;
+  }
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+    display: inline;
+  }
+.text-container {
+    justify-content: left;
+    top: 500px;
+}
+.text{
+    margin: 4px, 4px;
+    background-color: #E97451;
+    white-space: wrap;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+  }
+.rhizome img{
+    width: 320px;
+    height: 195px;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}  
+@media only screen and (max-width: 650px) {
+    .responsive {
+      width: 100%;
+    }
+}
+/*luvvacation page style
+ul.inside-images {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: auto;
+    overflow-x: auto;
+    background-color: #ddd;
+  }
+  ul.inside-images li {
+    display: inline;
+    width: 400px;
+    height: 450px;
+  }
+.food {
+    display: flex;
+    min-height: 400px;
+    max-height: 650px;
+}
+#food-left{
+    flex:1;
+    background-color: #E97451;
+}
+#food-right{
+    flex:1;
+    background-color: white;
+}*/
+/*nav bar style*/
+header{
+    background-color: #E97451;
+    position: fixed;
+    display: flex;
+    top:0;
+    left:0;
+    right:0;
+    height: 85px;
+    align-items: center;
+}
+header h1{
+    color: whitesmoke;
+}
+header *{
+    display:inline;
+}
+header li a{
+    color: whitesmoke;
+    margin: 30px;
+    align-items: right;
+}
+main{
+    margin-top: 85px;
+}
+/*footer style*/
+.footer{
+    background-color: #E97451;
+    position: fixed;
+    height: 30px;
+    width:100%;
+    left: 0;
+    bottom:0;
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 8px;
+}
